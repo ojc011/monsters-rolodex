@@ -5,14 +5,19 @@ import './App.css';
 
 class App extends Component {
   constructor() {
+    // Constructor is always ran first in javascript within a class //
     super();
 
     this.state = {
       monsters: [],
+      searchField: '',
     };
+    console.log('constructor1');
   }
 
   componentDidMount() {
+    console.log('componentDidMount');
+    // Once async func is done state will be updated and then the page will be rendered again //
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
       .then((users) =>
@@ -28,10 +33,28 @@ class App extends Component {
   }
 
   render() {
+    console.log('render');
+
+    const filteredMonsters = this.state.monsters.filter((monster) => {
+      return monster.name.toLocaleLowerCase().includes(this.state.searchField);
+    });
+
     return (
       <div className="App">
+        <input // Renders new array with filtered monster names //
+          className="search-box"
+          type="search"
+          placeholder="Search monsters"
+          onChange={(event) => {
+            console.log(event.target.value);
+            const searchField = event.target.value.toLocaleLowerCase();
+            this.setState(() => {
+              return { searchField };
+            });
+          }}
+        />
         {
-          this.state.monsters.map((monster) => {
+          filteredMonsters.map((monster) => {
             return (
               <div key={monster.id}>
                 <h1>{monster.name}</h1>
