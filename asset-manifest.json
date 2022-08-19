@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.6899778e.css",
-    "main.js": "/react-gh-pages/static/js/main.f7794546.js",
-    "static/js/787.e4e9b7ff.chunk.js": "/react-gh-pages/static/js/787.e4e9b7ff.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.6899778e.css.map": "/react-gh-pages/static/css/main.6899778e.css.map",
-    "main.f7794546.js.map": "/react-gh-pages/static/js/main.f7794546.js.map",
-    "787.e4e9b7ff.chunk.js.map": "/react-gh-pages/static/js/787.e4e9b7ff.chunk.js.map"
+    "main.css": "/OCMonstersRolodex/static/css/main.6899778e.css",
+    "main.js": "/OCMonstersRolodex/static/js/main.e4836957.js",
+    "static/js/787.e4e9b7ff.chunk.js": "/OCMonstersRolodex/static/js/787.e4e9b7ff.chunk.js",
+    "index.html": "/OCMonstersRolodex/index.html",
+    "main.6899778e.css.map": "/OCMonstersRolodex/static/css/main.6899778e.css.map",
+    "main.e4836957.js.map": "/OCMonstersRolodex/static/js/main.e4836957.js.map",
+    "787.e4e9b7ff.chunk.js.map": "/OCMonstersRolodex/static/js/787.e4e9b7ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6899778e.css",
-    "static/js/main.f7794546.js"
+    "static/js/main.e4836957.js"
   ]
 }
