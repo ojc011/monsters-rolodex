@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OCMonstersRolodex/static/css/main.6899778e.css",
-    "main.js": "/OCMonstersRolodex/static/js/main.e4836957.js",
-    "static/js/787.e4e9b7ff.chunk.js": "/OCMonstersRolodex/static/js/787.e4e9b7ff.chunk.js",
-    "index.html": "/OCMonstersRolodex/index.html",
-    "main.6899778e.css.map": "/OCMonstersRolodex/static/css/main.6899778e.css.map",
-    "main.e4836957.js.map": "/OCMonstersRolodex/static/js/main.e4836957.js.map",
-    "787.e4e9b7ff.chunk.js.map": "/OCMonstersRolodex/static/js/787.e4e9b7ff.chunk.js.map"
+    "main.css": "/monsters-rolodex/static/css/main.6899778e.css",
+    "main.js": "/monsters-rolodex/static/js/main.cadbb279.js",
+    "static/js/787.e4e9b7ff.chunk.js": "/monsters-rolodex/static/js/787.e4e9b7ff.chunk.js",
+    "index.html": "/monsters-rolodex/index.html",
+    "main.6899778e.css.map": "/monsters-rolodex/static/css/main.6899778e.css.map",
+    "main.cadbb279.js.map": "/monsters-rolodex/static/js/main.cadbb279.js.map",
+    "787.e4e9b7ff.chunk.js.map": "/monsters-rolodex/static/js/787.e4e9b7ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6899778e.css",
-    "static/js/main.e4836957.js"
+    "static/js/main.cadbb279.js"
   ]
 }
